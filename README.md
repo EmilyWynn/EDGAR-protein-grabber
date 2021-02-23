@@ -1,0 +1,2 @@
+# EDGAR-protein-grabber
+EDGAR (https://edgar.computational.bio.uni-giessen.de/) is a bioinformatic tool that can find the genes in the  pangenome or coregenome of a set of genomes. EDGAR can output amino acid sequences. However, if you want to sort a pangenome to find the shared core genome of multiple species, there in no easy way to export that subset of amino acid sequences. This python script allows you to sort an EDGAR output file to find any permutation of shared or unique core genomes and extract the amino acid sequences.
