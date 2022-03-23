@@ -1,6 +1,7 @@
 #! /usr/bin/env python3
 import os, sys
 
+# This version of prepEDGAR is for a previous version of EDGAR. This will not work with EDGAR3, but is here if anyone needs it.
 # This script takes the output of an EDGAR pangenome or coregenome analysis (csv old format) and formats it for use with GetGenesByLocusTag.py
 # This script assumes that all genome accessions are 10 characters long (I.E "CP000947.1"). Accessions with more or less characters will need to be fixed before moving to downstream analysis.
 
