@@ -1,4 +1,3 @@
-#! /usr/bin/env python3
 import csv
 
 with open('input.csv', 'r') as input_file, open('output.csv', 'w', newline='') as output_file:
