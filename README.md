@@ -4,3 +4,5 @@ EDGAR (https://edgar.computational.bio.uni-giessen.de/) is a bioinformatic tool 
 If the pangenome analysis in EDGAR is done on a small number of genomes, the pangenome spreadsheet will be a csv file. Use prepEDGAR_CSV.py to format the file to the correct format. To run EDGAR-protein-grabber.py, the names of the genomes on the header row must be the same as the gff files that correspond with those genomes.
 
 If the pangenome analyis in EDGAR is done on a large number of genomes, the pangenome spreadsheet will be a tsv file. Use prepEDGAR_TSV.py to format the file to the correct format. To run EDGAR-protein-grabber.py, the names of the genomes on the header row must be the same as the gff files that correspond with those genomes.
+
+EDGAR-protein-grabber will have to be editted to include the actual path to the folder containing your gff files.
